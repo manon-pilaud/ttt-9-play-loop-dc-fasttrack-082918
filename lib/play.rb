@@ -39,7 +39,6 @@ end
 def play(board)
   turn = 0
   until turn == 9
-    if valid_move?(board,index)
       turn +=1
     turn(board)
   end
